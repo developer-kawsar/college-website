@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header"> 
+     <nav>
+         <a href="index.html"><img src="images/logo.png" alt=""></a>
+         <div class="nav-links">
+
+            <i onclick="hidemenu()" class="fa fa-times"></i>
+             
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="">Contact</a></li>
+                 <li><a href="">Services</a></li>
+             </ul>
+         </div>
+         <i onclick="showmenu()" class="fa fa-bars"></i>
+     </nav>
+     
+     <h1>About Us</h1>
+    </section>
+
+    <!-- ============about us content=========== -->
+
+   <section class="about-us">
+       <div class="row">
+           <div class="about-col">
+               <h1>We are the world's largest University</h1>
+               <p> Lorem ipsum dolor sit amet consectetur 
+                    elit. Rem aperiam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ipsam libero porro suscipit voluptate magni,
+                    perferendis harum recusandae veritatis optio! inima hic,
+                pariatur sint eveniet voluptas, unde quae deleniti sunt quas ex. </p>
+                <a class="hero-btn red-btn" href="">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+       </div>
+   </section>
+
+
+
+<!-- =============foooter sectioon start============== -->
+<section class="footer">
+    <h4> About Us </h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum architecto minima non porro possimus? Sint eaque facilis minima consequuntur, quod necessitatibus quo quas iure explicabo tenetur nulla corrupti at quidem obcaecati dolor beatae qui illum itaque cumque pariatur? Laboriosam <br>
+     repellendus consequatur tempore molestias commodi iste asperiores 
+     quia tenetur esse.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+         
+     </div>
+    
+     <p> Made with <i class="fa fa-heart-o"></i>Kawsar Ahmed</p>
+</section>
+<!-- =============foooter sectioon End============== -->
+
+
+
+
+
+
+
+
+ <script>
+     var navlinks=document.querySelector(".nav-links")
+     function hidemenu(){
+        navlinks.style.right="-200px"
+
+     }
+     function showmenu(){
+        navlinks.style.right="0"
+
+
+     }
+ </script>
+</body>
+</html>
