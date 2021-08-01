@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     
     
 
@@ -11,7 +18,7 @@
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)),
-    url(images/banner.png);
+    url(images/mainbg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -228,7 +235,7 @@ transition: 0.5s;
  
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    background: rgba(139, 99, 177, 0.7);
 }
 .layer h2{
     color:#fff;
